@@ -1,0 +1,58 @@
+html {
+  background-color: #f0eee8;
+    font-family: Georgia, serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.cards {
+  margin: 1rem;
+  padding: .5rem;
+  line-height: 1.5;
+  border-width: 3px;
+  border-radius: 8px;
+  border-color: #785439;
+  background-color: #cabdb2;
+  color: #512200;
+}
+
+.cards strong {
+font-family: "Dosis", sans-serif;
+font-size: 1.5rem;
+}
+
+.cards p {
+  color: #512200;
+}
+
+.cards dl {
+  width: 100%;
+  overflow: hidden;
+  padding: 0;
+  margin: 0
+}
+.cards dt {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0
+}
+
+.cards dd {
+  float: left;
+  width: 50%;
+  padding: 0;
+  margin: 0
+}
+
+.cards a {
+  display: inline-block;
+  padding: .5em .75em;
+  background-color: #ccc;
+  border-radius: 4px;
+  color: #000;
+  text-decoration: none;
+  text-align: center;
+}
